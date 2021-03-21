@@ -1,0 +1,55 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: Typo Oval Light Demo;
+
+}
+.navbar ul{
+    list-style: none;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a 
+{
+    text-decoration: none;
+    color: #6f6d6d;
+    width: 85px;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 5px;
+}
+
+.navbar a:hover
+{
+    background: Orange;
+}
+
+
+footer{
+    background: #f0f0f0;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+#active {
+    margin-left: +350px;
+}
