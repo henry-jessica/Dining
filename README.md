@@ -17,7 +17,7 @@ On my birthday we decided to schedule a celebration dinner at Bistro Restaurant 
      3. As a Returning Visitor, I want to see the new picture of the food, location also time opened and closed.
      4. As a Returning Visitor, I want to create my menu to receive special offers.
 
-      -   #### First Time Visitor Goals   
+      -   #### Frequent User Goals   
      1. As a Frequent User, I want to know the offers.
      2. As a Frequent User, I want to watch and see if I catch the restuarant menu.
      3. As a Frequent User, I want to share the link with my friends.
