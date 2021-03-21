@@ -27,7 +27,7 @@ On my birthday we decided to schedule a celebration dinner at Bistro Restaurant 
 -   ### Design
 
     -   #### General
-       -  This webpage was created as a responsive, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
+- This webpage was created as a responsive, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
 
     -   #### Colour Scheme
 - For the determination of the colors, a study on the psychology of the colors was carried out, then decided. In the documentation this is more detailed about the hex reference of the colors.
