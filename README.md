@@ -27,17 +27,18 @@ On my birthday we decided to schedule a celebration dinner at Bistro Restaurant 
 -   ### Design
 
     -   #### General
-       -   This webpage was created as a responsive, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
+       -  This webpage was created as a responsive, giving the appearence of an app with cards containing the content. If opened in devices with larger screen, the cards are going to be resized and be shown in 2 columns, this make the site easier to mantain if necessary to include or remove cards.
 
     -   #### Colour Scheme
-       -   For the determination of the colors, a study on the psychology of the colors was carried out, then decided. In the documentation this is more detailed about the hex reference of the colors.
+- For the determination of the colors, a study on the psychology of the colors was carried out, then decided. In the documentation this is more detailed about the hex reference of the colors.
 
     -   #### Typography
-       -   The Typo Oval Light Demo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Typo Oval Light Demo  is a clean font used frequently in sophisticated designs, so it is both attractive, appropriate and memorable.
+- The Typo Oval Light Demo font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Typo Oval Light Demo  is a clean font used frequently in sophisticated designs, so it is both attractive, appropriate and memorable.
 The same Font was used for the Logo. 
 
    -   #### Imagery
-        -   Imagery is important, it is using free image sites to avoid future copyright issues.
+- Imagery is important, it is using free image sites to avoid future copyright issues.
+
 
 ## Features
 
