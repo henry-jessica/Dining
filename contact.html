@@ -1,1 +1,69 @@
-Contact here - email form
+<!doctype html>
+<!-- My First Web Project
+Athor: Jessica Henry
+Date: 03/03/2021
+Page Description:Home Page CA1
+Modified:    Updated-  -->
+
+<html lan  = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "description" content="Search Restaurants">
+        <meta name = "keywords" content="Dining, restaurant, about,diners">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/logo_global.jpg">
+        <title>Dining</title>
+        <!----Insert link to the style---> 
+        <link rel="stylesheet" type="text/css" href="style/style.css"> 
+    </head>
+    <body>
+        <header>
+            <!--inline styling for image to the logo-->
+            <a href="index.html"><img id="active" style="float:left; margin-right:10%; height: 60px;" src="img/logo.jpg" alt="logo" width="115px"></a>
+            <nav class = "navbar">
+                <ul>
+                    <!--Unordered List ---> 
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a id="screen_active" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main cla>
+
+            <section>
+                <h3 id="title_page">Please enter the following information:</h3>
+                <p id="subtitle">Fill in the information</p>
+                <form action="http:/foo.com" method="get">
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="name123@example.com">
+                    <br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="gender" name="gender" value="male">Male
+                    <input type="radio" id="gender" name="gender" value="female">Female
+                    <input type="radio" id="gender" name="gender" value="other" checked>Other<br>
+                    <label for="internet">Heard of us:</label>
+                    <fielders>
+                        <input type= "checkbox" id="internet" name="internet1" value="internet" checked>Internet<br>
+                        <input type= "checkbox" class="margin" id="internet2" name="internet" value ="paper" checked>Internet2<br>
+                        <input type="checkbox" class="margin" id="internet4" name="friend" value="friend" checked>Internet3<br>
+                        <input type="checkbox" class="margin" id="internet3" name="Add" value ="Add" checked>Internet3<br>
+                    </fielders>
+                    <br>
+                    <fielders>
+                        <label for="message">Query : </label>
+                        <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea><br>
+                        <input type="submit" name="submit" id="button" value="Submit">
+                        <input type="reset"name="reset" id="reset">
+                    </fielders>
+
+                </form>
+            </section>
+        </main>    
+    </body>
+</html>
