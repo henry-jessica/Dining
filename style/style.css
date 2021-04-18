@@ -111,7 +111,10 @@ body{
 
 }
 
+#active {
 
+    margin-left: 20%;
+}
 article {
     background: #ffff;
     width: 80%;
@@ -152,7 +155,7 @@ h2
 .text-center {
     text-align: center !important;
 }
-h1, h2, h3, h4, {
+.h1, .h2, h1, h2 {
     margin: 0 0 12px;
     line-height: 1.5;
     overflow-wrap: break-word;
@@ -176,16 +179,6 @@ p {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 30px;
 
-}
-.container h1{
-    text-align: center;
-    font-family: 'Lato';
-    border-top-style:90px;
-    font-weight: 552;
-    font-size: 25px;
-    /*    text-transform: lowercase;/*/
-    color: #2E266F;
-    margin-top: 8px;
 }
 
 
@@ -868,27 +861,36 @@ footer{
     margin-top:-5%;
     margin-left: 9%;
 }
+.container h1{
+    text-align: center;
+    font-family: 'Lato';
+    border-top-style:90px;
+    font-weight: 552;
+    font-size: 25px;
+    /*    text-transform: lowercase;/*/
+    color: #2E266F;
+    margin-top: 8px;
+}
 
 .col_detail {
     column-count: 4;
- column-rule: 1px solid gray;
+   /* column-rule: 1px solid gray;*/
     column-gap:1px;
     text-align: center;
-    padding: 2%;
+    padding: 7%;
 }
 .col_detail h3{
     margin: 0px;
-    text-align: left;
-    padding: 2px;
-    margin-left: 10px;
+    text-align: right;
+    padding: 1px;
+    margin-left: 5px;
 }
 .col_detail p{
-    margin: 0px;
-    text-align: left;
+    margin: 3px;
+    text-align: right;
     padding: 2px;
-    margin-left: 3px;
+    margin-right: 7px;
 }
-
 
 .box {
     width: 320px;
@@ -955,11 +957,10 @@ table {
 
 
 #faq {
-    height: 1740px;
+    height: 1729px;
     background: white;
     font-size: 17px;
     text-align: left;
-    margin: 0%;
 }
 
 
@@ -1099,6 +1100,9 @@ th, tr, td{
     margin-top: 10%;
     margin-bottom: 10%;
 }
+.brand {
+    100%;
+}
 
 #form_contact {
     display: block;
@@ -1111,7 +1115,7 @@ th, tr, td{
     text-align: center;
 }
 #form_contact input{
-    
+
 }
 #form_contact #button,#reset{
     width: 100px;
@@ -1141,7 +1145,7 @@ th, tr, td{
 
 #cover {
     width: 100%;
-    height: 845px;
+    height: 850px;
     background: linear-gradient(90deg,rgba(45,45,65,.5),rgba(47,10,65,.3)),url('../img/image11.jpg');
     display: block;
     background-size: cover;
@@ -1175,17 +1179,4 @@ th, tr, td{
 #test_conte {
     margin-top: -20px;
 }
-
-#colunas {
-        
-}
-
-.logo {
-    float:left; 
-    margin-right:10%; 
-    height: 60px;
-    width:"115px";
-    margin-left: 20%;  
-}
-
 
