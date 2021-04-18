@@ -2,24 +2,24 @@
 <!-- My First Web Project
 Athor: Jessica Henry
 Date: 03/03/2021
-Page Description:Home Page CA1
-Modified:    Updated-  -->
-
-<html lan  = "en">
+Page Description:Index Page - Project Dining  -->
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name = "description" content="Search Restaurants">
-        <meta name = "keywords" content="Dining, restaurant, about,diners">
+        <meta name = "description" content="Dining">
+        <meta name = "keywords" content="Dining, restaurant, book restaurants, download dining app, special offers,wonderful dishes">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/logo_global.jpg">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.jpg">
         <title>Dining</title>
-        <!----Insert link to the style---> 
+        <!--Insert link to the style--> 
         <link rel="stylesheet" type="text/css" href="style/style.css"> 
     </head>
     <body>
         <header>
-            <!--inline styling for image to the logo-->
-            <a href="index.html"><img id="active" style="float:left; margin-right:10%; height: 60px;" src="img/logo.jpg" alt="logo" width="115px"></a>
+            <section>
+                <!--inline styling for image to the logo-->
+                <a href="index.html"><img class="logo" src="img/logo.jpg" alt="logo" ></a>
+            </section>
             <nav class = "navbar">
                 <ul>
                     <!--Unordered List ---> 
@@ -31,17 +31,17 @@ Modified:    Updated-  -->
             </nav>
         </header>
         <main>
-            <section class="meen">
-            </section >
-            <section class="section_test">
+            <!-- section main backgroung photo--> 
+            <section class="main-background"></section>
+            <section>
                 <section id="first_screen">
                     <section class="container">
-                        <a rel = "#" class="Rectangle"></a>
-                        <h2>Search and Book</h2>
-                        <form action="http:/foo.com" method="get">
-                            <section class="form_index" action="http:/foo.com" method="get">
+                        <p class="Rectangle"></p>
+                        <h1>Search and Book</h1>
+                        <form action="http://foo.com" method="get"> <!--Making the County and Seted obligatorio to search --> 
+                            <section class="form_index" action="http://foo.com" method="get">
                                 <!-- <label for="county"> County:<span class="required">*</span></label> -->
-                                <select id="county" name="county" id="county" autofocus required>  
+                                <select id="county" name="county" autofocus required>  
                                     <option select desabilited value="">County</option>
                                     <option>Antrim</option>
                                     <option>Armagh</option>
@@ -75,8 +75,7 @@ Modified:    Updated-  -->
                                     <option>Wexford</option>
                                     <option>Wicklow</option>
                                 </select>
-                                <!--      <label for="seated">Seated:<span class="required">*</span></label> -->
-                                <select aria-label="Party size selector" data-test="party-size-picker" id="seted" name="seted" id="seted" required>
+                                <select aria-label="Party size selector" data-test="party-size-picker" name="seted" id="seted" required>
                                     <option select desabilited value="">Seated</option>
                                     <option>1 person</option>
                                     <option>2 people</option>
@@ -100,9 +99,7 @@ Modified:    Updated-  -->
                                     <option>20 people</option>
                                     <option>Larger party</option>
                                 </select>
-                                <!-- <label id = "date" for="date">Date:</label> -->
                                 <input id="date" type="date">
-                                <!--   <label  id = "time_start" for="startTime">Start time: </label> -->
                                 <input type="time" id="startTime">
                                 <section id="button_search">
                                     <input type="submit" name="submit" id="button" value="Find Restaurants">
@@ -115,30 +112,31 @@ Modified:    Updated-  -->
                         <nav class = "Nav_images_our_list_item">
                             <ul>
                                 <!--Unordered List ---> 
-                                <li> <a href = "index.html"><img class = "imagens_rest" src="img/Eala.jpg"><h5>Ela Bhan Sligo</h5></a></li>
-                                <li> <a href = "index.html"><img class = "imagens_rest" src="img/Bistro.jpg"><h5>Coach Lane</h5></a></li>
-                                <li> <a href = "index.html"><img class = "imagens_rest" src="img/Davey_Restaurant.jpg"><h5>Hooked Sligo</h5></a></li>
-                                <li> <a href = "index.html"><img class = "imagens_rest" src="img/japonese.jpg"><h5>Miso Sligo</h5></a></li>
-                                <li> <a href = "index.html"><img class = "imagens_rest" src="img/frances.jpg"><h5>Montmartre</h5></a></li>
+                                <li><a href = "index.html"><img class = "imagens_rest" alt="Esla" src="img/Eala.jpg"><h5>Ela Bhan Sligo</h5></a></li>
+                                <li><a href = "index.html"><img class = "imagens_rest" alt="Bistro" src="img/Bistro.jpg"><h5>Coach Lane</h5></a></li>
+                                <li><a href = "index.html"><img class = "imagens_rest" alt="Davey" src="img/Davey_Restaurant.jpg"><h5>Hooked Sligo</h5></a></li>
+                                <li><a href = "index.html"><img class = "imagens_rest" alt="Mistos" src="img/japonese.jpg"><h5>Miso Sligo</h5></a></li>
+                                <li><a href = "index.html"><img class = "imagens_rest" alt="Franch" src="img/frances.jpg"><h5>Montmartre</h5></a></li>
                             </ul>
                         </nav>
                     </section>
                 </section>
-                <section id = "secondScreen">
-                    <a rel = "#" id="pauzinho"></a>
+                <section id = "block-images">
+                    <p id="rectangle_2"></p>
                     <h4>Wonderful Dishes Near You</h4>
-                    <section id="Test_ima">
-                        <img src="img/img22.jpg" alt="Restaurant1" class = "grid-item imagens_second_screen"/>
-                        <img src="img/img22.jpg" alt="head gear" class = "grid-item imagens_second_screen1"/>
-                        <img src="img/img22.jpg" alt="head gear" class = "grid-item imagens_second_screen2"/>
-                        <img src="img/img22.jpg" alt="head gear" class = "grid-item imagens_second_screen3"/>
-                        <img src="img/img22.jpg" alt="head gear" class = "grid-item imagens_second_screen4"/>
-                        <img src="img/img22.jpg" alt="head gear" class = "grid-item imagens_second_screen5"/>
+                    <section id="Test_img">
+                        <img src="img/img22.jpg" alt="lasanha" class = "grid-item imagens_second_screen">
+                        <img src="img/z03.jpg.crdownload" alt="pasta" class = "grid-item imagens_second_screen1"/>
+                        <img src="img/gourmet-food.jpg" alt="irish food" class = "grid-item imagens_second_screen2"/>
+                        <img src="img/gourmetFood.jpg" alt="Fancy Pasta" class = "grid-item imagens_second_screen3"/>
+                        <img src="img/pizza_4.jpeg" alt="pizza bbq" class = "grid-item imagens_second_screen4"/>
+                        <img src="img/meat2.jpeg" alt="stek" class = "grid-item imagens_second_screen5"/>
+                        <img src="img/pizza_3.jpeg" alt="pizza" class = "grid-item imagens_second_screen4"/>
+                        <img src="img/meat.jpeg" alt="meatr" class = "grid-item imagens_second_screen5"/>
                     </section>
                 </section>
                 <section class="email_form">
                     <h2>Get notified <br> About special offers that match</h2>
-                    <p>Gain access to exclusive offers, best-of lists, local events & more (you can unsubscribe any time).</p>
                     <input type="email" placeholder="Email" id="footer-email">
                     <input type=submit value="Sign Up" id="footer-email-btn">
                 </section>
@@ -146,24 +144,29 @@ Modified:    Updated-  -->
                     <img src="img/app_dining.png" alt="Restaurant1" class = "mobile_img"/>
                     <section class="app_download">
                         <h3>Download Dining App <br> For Exciting Deal</h3>
-                        <a href="#" id="details_rectangle"></a>
+                        <p>For speedy ordering and delivery updates, get the Dining app.</p>
+                        <p id="rectangle2"></p>
+                    </section>
+                    <section class="download-app">
+                        <a href="#"></a><img src="https://d2egcvq7li5bpq.cloudfront.net/a/hw/img/icons/appstore/ios.svg" alt="Download the Dining app on iOS" class="icon_ios">
+                        <a href="#"></a><img src="https://d2egcvq7li5bpq.cloudfront.net/a/hw/img/icons/appstore/android.svg" alt="Download the Just Eat app on Android" class="icon_android">
                     </section>
                 </section>
-                <section class="test">
-                    <a href="#"></a><img src="https://d2egcvq7li5bpq.cloudfront.net/a/hw/img/icons/appstore/ios.svg" alt="Download the Dining app on iOS" class="icon_ios">
-                    <a href="#"></a><img src="https://d2egcvq7li5bpq.cloudfront.net/a/hw/img/icons/appstore/android.svg" alt="Download the Just Eat app on Android" class="icon_android">
-                </section>
-
             </section>   
         </main>
         <footer class="footer_style">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <small>Dining 2021 &copy; All rights reserved. </small>
+            <nav class="nav-footer">
+                <ul>
+                    <li><a id="active_" href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <section>
+                <small>This is a college project, this company does Not exist.</small>
+                <p>2021 &copy; All Rights Reserved.</p>
+            </section>
         </footer>
     </body>
 </html>

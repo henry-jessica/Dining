@@ -1,5 +1,4 @@
 body{
-
     background: #FFF5EC;
     font-size: small;
     margin: 0 auto;
@@ -8,7 +7,7 @@ body{
     font-family: sans-serif;
 }
 
-.Leo{
+.about-background{
     height: 300px;
     background: url('../img/hero-about.jpg');
     display: block;
@@ -20,9 +19,24 @@ body{
     background-size: cover;
     background-position: center center;
 }
-.about{
+.faq-background{
     height: 300px;
-    background: url('../img/vectorDi.jpg');
+    background: url('../img/img13.jpg');
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    text-align: left;
+    background-position: center center;
+}
+
+
+.about-for-companies{
+    height: 300px;
+    background: linear-gradient(90deg,rgba(47,45,65,.5),rgba(47,10,65,.3)),url('../img/image11.jpg');
     display: block;
     position: relative;
     top: 0;
@@ -32,9 +46,20 @@ body{
     background-size: cover;
     background-position: center center;
 }
+#content .about-for-companies h4{
+    color: #ffff;
+    margin-top: 0px;
+    font-size: px;
+    padding: 0;
+    margin-top: -40px;
+    text-align: center;
+}
 
 
-.meen{
+
+
+
+.main-background{
     height: 300px;
     background: linear-gradient(90deg,rgba(47,45,65,.5),rgba(47,10,65,.3)),url('../img/fancyRestaurant.jpg');
     display: block;
@@ -58,8 +83,6 @@ body{
     text-align: center;
 }
 
-
-
 .navbar li{
     display: inline-block;
 }
@@ -75,6 +98,7 @@ body{
     font-weight: lighter;
     text-align: center;
     margin: 5px;
+
 }
 
 .navbar a:hover
@@ -84,14 +108,12 @@ body{
 
 .navbar .currentpage{
     border-color: yellow;
+
 }
 
-#active {
 
-    margin-left: 20%;
-}
 article {
-    background: white;
+    background: #ffff;
     width: 80%;
     margin: auto;
     font: 'Lato';
@@ -103,6 +125,17 @@ article {
     border-radius: 1px;
     margin-top: 35px;
 }
+article h3{
+    text-align: center;
+    font-family: 'Lato';
+    border-top-style:90px;
+    font-weight: 552;
+    font-size: 25px;
+    /*    text-transform: lowercase;/*/
+    color: #2E266F;
+    margin-top: 50px;
+}
+
 
 h2
 {
@@ -119,7 +152,7 @@ h2
 .text-center {
     text-align: center !important;
 }
-.h1, .h2, h1, h2 {
+h1, h2, h3, h4, {
     margin: 0 0 12px;
     line-height: 1.5;
     overflow-wrap: break-word;
@@ -131,17 +164,28 @@ p {
     font-size: 18px;
     line-height: 1.4;
     color: #3b2e2b;
+    text-align:justify;
 }
 .container {
     position:relative;
     width: 850px;
     height: 200px;
-    left: 330px;
+    margin-left: 20%;
     top: -120px;
     background: #FFFFFF;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 30px;
 
+}
+.container h1{
+    text-align: center;
+    font-family: 'Lato';
+    border-top-style:90px;
+    font-weight: 552;
+    font-size: 25px;
+    /*    text-transform: lowercase;/*/
+    color: #2E266F;
+    margin-top: 8px;
 }
 
 
@@ -187,7 +231,7 @@ h4 {
     width: 200.03px;
     height: 5.8px;
     left: 355px;
-    top: 25px;
+    top: 10px;
     background: #F27B35;            
 }
 
@@ -429,7 +473,7 @@ h5 {
     text-align: center;
 }
 
-#Test_ima {
+#Test_img {
     /* background: #FFF5EC;
     margin: 0;
     font: 'Lato';
@@ -439,7 +483,7 @@ h5 {
     margin-top: 35px;
     display: inline-block;
     /*/
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     font-size: 0;
     text-align: center;
@@ -449,24 +493,19 @@ h5 {
     position: absolute;
     margin-left: 200px;
 }
-
 #seted {
     width: 125px;
     font-family: 'Lato';
 }
-
-
 #county {
     width: 125px;
     font-family: 'Lato';
 }
-
-
-#secondScreen{
+#block-images{
     background: url('../img/fundo.jpg');
     height:1112px;
 }
-#secondScreen h4{
+#block-images h4{
     color: #2E266F;
     margin-left: 130px;
     margin-bottom: 100px;
@@ -477,8 +516,7 @@ h5 {
     padding-top: 7%;
     font-size: 35px;
 }
-
-.grid-item{
+.grid-item {
     display: inline-block;
     width: 300px;
     height: 300px;
@@ -486,16 +524,24 @@ h5 {
     vertical-align: top;
     margin: 20px;
     border-radius: 15px;
+    font-style:bold;
 }
-
-.grid-item:hover{     /*effect for all images on grid*/
+.grid-item:hover {     /*effect for all images on grid*/
     background: #F27B35;
     opacity: 0.7;
     background-color: rgba(219,127,8, 0.7);
     transition: all 0.4s ease-in-out;
-    cursor: pointer;
+    cursor: pointer;  
+    color: white;
+
 
 }
+.testh5:hover {     /*effect for all images on grid*/
+    width: 100px;
+    font-size:70px;
+    color: red;
+}
+
 
 .grid-item:before{
     content: '';
@@ -510,7 +556,7 @@ h5 {
 }
 
 
-#pauzinho{
+#rectangle_2{
     position: absolute;
     width: 12.03px;
     height: 80.8px;
@@ -523,7 +569,21 @@ h5 {
 #content{
     float: left;
     width: 80%;
-    border: 1px;
+    border-right: 1px solid orange;
+}
+#content h5
+{
+    font-size: 17px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#content h4{
+    font-size: 18px;
+    text-align: left;
+    color: darkorange;
+    font-style: normal;
+    font-weight: 20px;
 }
 
 #side {
@@ -609,7 +669,7 @@ h5 {
 
 
 .navbar{
-    margin-left: 230;
+    margin-left: 0px;
 }
 
 #lmlkmas{
@@ -644,7 +704,17 @@ small{
     color: #fff;
     font-size: 1rem;
 }
-#footer-email-btn:hover{
+#for-companies-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423D;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+#footer-email-btn:hover, #for-companies-btn:hover{
     cursor: pointer;
     background-color: #2E266F;
     transition: all 0.4s ease-out;
@@ -711,11 +781,16 @@ footer{
 }
 .mobile_img{
     width: 25%;
-    display: block;
+    margin: 0;
+    margin-top: 7%;
+    margin-left: 25%;
 }
 
 .image_app{
-    background: #FFF5EC;
+    /*background: white;*/
+    background: url('../img/gray_dots.jpg');
+    height: 700px;   
+    margin: 0 auto;
 }
 .icon_ios, .icon_android
 {
@@ -735,13 +810,14 @@ footer{
     font-size: 35px;
 }
 
-#details_rectangle{
+#rectangle2{
     position: absolute;
     width: 12.03px;
     height: 80.8px;
-    left: 355px;
-    margin-top: -190px;
+    left: 0px;
+    margin-top: -140px;
     background: #F27B35;  
+    cursor: default;
 }
 .images_our_list h4{
     font-size: 24px;
@@ -752,9 +828,7 @@ footer{
 }
 
 
-.section_test {
 
-}
 
 #first_screen {
     height:582px;
@@ -773,20 +847,48 @@ footer{
     padding-top: 17%;
 }
 
-.test {
-    background-color: #FFF5EC
+.download-app{
+    position: relative;
+    right: 30%;
+    margin-top: -13%;
+    margin-bottom: 20%;
+    cursor:pointer;
 }
 
 .app_download {
-    display: block;
+    position: relative;
+    margin-left: 0px;
+    margin-top:-40%;
+    margin-bottom: 200px;
+    padding: 30px;
+}
+.app_download p{
+    text-align: left;
+    margin:0;
+    margin-top:-5%;
+    margin-left: 9%;
 }
 
 .col_detail {
-    column-count: 3;
-    column-rule: 1px solid gray;
-    column-gap:50px;
-    padding: 2px;
+    column-count: 4;
+ column-rule: 1px solid gray;
+    column-gap:1px;
+    text-align: center;
+    padding: 2%;
 }
+.col_detail h3{
+    margin: 0px;
+    text-align: left;
+    padding: 2px;
+    margin-left: 10px;
+}
+.col_detail p{
+    margin: 0px;
+    text-align: left;
+    padding: 2px;
+    margin-left: 3px;
+}
+
 
 .box {
     width: 320px;
@@ -825,32 +927,265 @@ details summary{
 }
 
 table {
-    width: 70%;
+    width: 100%;
     border:1px solid gray;
     border-collapse: collapse;
-    font-size;20px;
-    margin: 20px;
+    font-size: 20px;
+    margin: 60px;
+    margin-right: 17px;
     text-align: center;
 }
-th, tr, td{
-    border: 1px solid gray;
-    text-align: left;
-}
 
-th,tr,td{
-    border: 1px solid gray;
-
-}
 
 #screen_active {
-text-decoration: none;
+    text-decoration: none;
     color: darkorange;
     width: 85px;
     display: block;
     padding: 15px;
     font-size: 18px;
-    font-style: bold;
+    font-style: bold italic;
     font-weight: bold;
     text-align: center;
     margin: 5px;
+    border-bottom:3px solid orange;
+    /* background-color: orange;*/
+
 }
+
+
+#faq {
+    height: 1740px;
+    background: white;
+    font-size: 17px;
+    text-align: left;
+    margin: 0%;
+}
+
+
+
+
+.food p{
+    position: relative;
+}
+
+#imagfood1 {
+    background-image: url("https://i.pinimg.com/originals/84/9a/0d/849a0d0bf99d1fb4e1b0f696586f4fb3.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;   
+}
+#imagfood1:hover {
+    background-image: url("https://cdn.cheapism.com/images/iStock-1178624401.max-784x410.png");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    transition: 0.6s ease;
+}
+.testh5 {
+    font-size: 24px;
+    position: absolute;
+    margin-top:-5%;
+    margin-left: 200px;
+    color:white;
+    width: 200px;
+}
+
+.list_faq {list-style-type: circle;}
+
+.side_bar {
+    text-align: left;
+    color: #6f6d6d;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 5px;
+}
+
+#imag {
+}
+
+.col_content {
+    list-style: none;
+    font-size: 17px;
+    font-family: 'Lato';
+
+}
+
+#active_ {
+    background-color: orange;
+}
+
+.footer_style p,a,nav{
+    text-align: center;
+    font-size: 17px;
+}
+
+
+
+.footer_style {
+    width: 100%;
+    position: relative; 
+    bottom: 0; 
+    text-align: center;
+    color: #232323;
+    overflow: hidden;
+    height: auto;
+    padding-top: 10px;
+    background-color: #f0f0f0;
+    left: 0;
+}
+
+
+.nav-footer ul{
+    list-style: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-footer li{
+    display: inline-block;
+    border-color: orange;
+    /*  border: 1px solid orange;*/         
+}
+
+.nav-footer a 
+{
+    text-decoration: none;
+    color: #6f6d6d;
+    width: 85px;
+    display: block;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0px;
+}
+
+.nav-footer a:hover
+{
+    background: Orange;
+}
+
+
+#about-wrap {
+    height: 3250px;
+    background: white;
+}
+
+.points{
+    max-width: 85%;
+    margin: 0 auto;
+    color: #2E266F;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.points th{
+    background-color: #f2b490;
+    font-weight: bold;
+}
+
+th, tr, td{
+    border: 1px double #887d7d;
+    font-weight: lighter;
+    color: #000000;
+    font-size: 15px;
+}
+
+
+.points-details {
+    margin:10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#form_contact {
+    display: block;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-style: italic;
+    box-shadow: 8px 8px 8px rgba(5, 0, 00, 800);
+}
+#form_contact h3{
+    text-align: center;
+}
+#form_contact input{
+    
+}
+#form_contact #button,#reset{
+    width: 100px;
+    font-weight: 150px;
+    font-size: 14px;
+    padding: 10px 0;
+    background-color: #F27B35;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    justify-content: center;
+
+}
+#form_contact label{
+    float: left;
+    width: 112px;
+    text-align: right;
+    padding-top: 0px;
+    text-align: right;
+}
+
+.brand {
+    100%;
+}
+
+#cover {
+    width: 100%;
+    height: 845px;
+    background: linear-gradient(90deg,rgba(45,45,65,.5),rgba(47,10,65,.3)),url('../img/image11.jpg');
+    display: block;
+    background-size: cover;
+    font-size: 17px;
+    text-align: left;
+    background-position: 100% ;
+}
+
+.wrap-contact {
+    display: block;
+    justify-content: center;
+    width: 25%;
+    margin: 0 auto;
+    background: white;
+    font-size: 17px;
+    text-align: left;
+    border: 1px double orange;
+}
+#cover h1{
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 7%;
+}
+
+
+
+#test_conte {
+    margin-top: -20px;
+}
+
+#colunas {
+        
+}
+
+.logo {
+    float:left; 
+    margin-right:10%; 
+    height: 60px;
+    width:"115px";
+    margin-left: 20%;  
+}
+
+
