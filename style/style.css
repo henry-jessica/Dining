@@ -1071,7 +1071,7 @@ table {
 
 
 #about-wrap {
-    height: 3250px;
+    height: 3282px;
     background: white;
 }
 
@@ -1145,7 +1145,7 @@ th, tr, td{
 
 #cover {
     width: 100%;
-    height: 850px;
+    height: 970px;
     background: linear-gradient(90deg,rgba(45,45,65,.5),rgba(47,10,65,.3)),url('../img/image11.jpg');
     display: block;
     background-size: cover;
