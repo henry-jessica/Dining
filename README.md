@@ -42,8 +42,6 @@ The same Font was used for the Logo.
 
 ## Features
 
--   Responsive on all device sizes
-
 -   Interactive elements
 
 -   Live updated content
