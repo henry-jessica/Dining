@@ -1,4 +1,4 @@
-<h1 align="center">Dining - Interactive Frontend Development Web Desing Fundamentals Project</h1>
+<h1 align="center">Dining - Interactive Frontend Development - Web Desing Fundamentals Project</h1>
 
 On my birthday we decided to schedule a celebration dinner at Bistro Restaurant in Sligo. Problem that when booking the table, they said there was no table available on my birthday. Then we started calling several restaurants in Sligo and found a table available at a restaurant in a neighboring town. After this problem I was thinking about a solution to prevent people wasting time calling to restaurants without table available. So, my solution consist in a website where people can search for restaurants at in a city and can find all restaurants with table available – where, when, what time, how many guests.   
 
