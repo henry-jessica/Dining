@@ -1189,7 +1189,7 @@ th, tr, td{
     width: 60px;
     right: 25px;
     background-color: none;
-   /* border: 1px solid orange;*/
+   border: 1px solid orange;
 }
 #go-top h4{
     text-decoration: none;
