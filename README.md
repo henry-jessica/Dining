@@ -1,6 +1,6 @@
 <h1 align="center">Dining - Interactive Frontend Development - Web Desing Fundamentals Project</h1>
 
-On my birthday we decided to schedule a celebration dinner at Bistro Restaurant in Sligo. Problem that when booking the table, they said there was no table available on my birthday. Then we started calling several restaurants in Sligo and found a table available at a restaurant in a neighboring town. After this problem I was thinking about a solution to prevent people wasting time calling to restaurants without table available. So, my solution consist in a website where people can search for restaurants at in a city and can find all restaurants with table available – where, when, what time, how many guests.   
+On my birthday we decided to schedule a celebration dinner at the Bistro Restaurant in Sligo. the problem arose when booking the table, they said there was no table available on my birthday. Then, we started calling several restaurants in Sligo and after 40 minutes we finally found a table available at a restaurant in a neighboring town. After this problem I thought of a solution to prevent people wasting time calling restaurants without a table available. So, my solution consists of a website where people can search for restaurants in a city and find all restaurants with a table available - where, when, at what time, how many guests.
 
   ## User Experience (UX)
 
