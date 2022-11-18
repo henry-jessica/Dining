@@ -121,6 +121,6 @@ Click [Here](https://help.github.com/en/github/collaborating-with-issues-and-pul
 ## Credits
 
 ### Code
-- [Institute of Technology Sligo](https://www.itsligo.ie/) - The course gave me the hability to improve my knowledge and was very important on the HTML, CSS part of this project also with the subject Design Thinking which was fundamental for the UX part.
+- [ATU](https://www.itsligo.ie/) - The course gave me the hability to improve my knowledge and was very important on the HTML, CSS part of this project also with the subject Design Thinking which was fundamental for the UX part.
 -  Aine Mitchell, My Lecturer for continuous helpful feedback also for all the knowledge that is passed on in classes and after. Thank you. 
 
